@@ -1,0 +1,28 @@
+{
+  "name": "ganesh360",
+  "version": "1.0.0",
+  "description": "Virtual Ganesh Festival using Framevr.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchovatiya88/ganesh360.git"
+  },
+  "keywords": [
+    "WebXR",
+    "Framevr",
+    "AFrame",
+    "Javascript"
+  ],
+  "author": "Ronak Chovatiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchovatiya88/ganesh360/issues"
+  },
+  "homepage": "https://github.com/rchovatiya88/ganesh360#readme",
+  "dependencies": {
+    "cypress": "^4.12.1"
+  }
+}
