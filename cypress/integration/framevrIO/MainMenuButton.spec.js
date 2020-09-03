@@ -25,6 +25,15 @@ context('Feature: Main menu button', () => {
         it('Then: Menu Should Load', () => {
             cy.get('.topLogo').should('be.visible');
         });
+
+        it('AND: Goes to How to Button', () => {
+            cy.get('[tabindex="3"]').click();
+        });
+
+        it('THEN: Goes to mobile', () => {
+
+            cy.get('#welcometabscontainer > .v-tabs > .v-slide-group > .v-slide-group__wrapper > .v-slide-group__content > [tabindex="2"]').click();
+        })
     })
 
 
